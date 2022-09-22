@@ -1,5 +1,3 @@
-# Оксана
-
 def view_data(result, expressiontitle:str)->str:
     '''
     Вывод результата
@@ -22,4 +20,3 @@ def get_oper()-> str:
     '''
     Выбор операции
     '''
-    return input('Выберете операцию: * / - + **')
