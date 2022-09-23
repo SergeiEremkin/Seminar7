@@ -1,4 +1,6 @@
 # Сергей
+x = 0
+y = 0
 
 '''
 Комплексное число записывается в виде: z = re + im * i, где
@@ -7,28 +9,30 @@
          i - мнимая единица
 '''
 
-
-def sum_complex(a_re, a_im, b_re, b_im):
-    a = complex(a_re, a_im)
-    b = complex(b_re, b_im)
-    return a + b
-
-
-def minus_complex(a_re, a_im, b_re, b_im):
-    a = complex(a_re, a_im)
-    b = complex(b_re, b_im)
-    return a - b
+def init(a_re, a_im, b_re, b_im):
+    global x
+    global y
+    x = complex(a_re, a_im)
+    y = complex(b_re, b_im)
 
 
-def multiply_complex(a_re, a_im, b_re, b_im):
-    a = complex(a_re, a_im)
-    b = complex(b_re, b_im)
-    return a * b
+def sum_complex():
+    return x + y
 
 
-def partial_complex(a_re, a_im, b_re, b_im):
-    a = complex(a_re, a_im)
-    b = complex(b_re, b_im)
-    return a / b
+def minus_complex():
+    return x - y
 
-print(partial_complex(1,2,3,4))
+
+def multiply_complex():
+    return x * y
+
+
+def partial_complex():
+    return x / y
+
+
+init(2, 3, 4, 5)
+print(x)
+print(y)
+print(sum_complex())

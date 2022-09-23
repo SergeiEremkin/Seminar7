@@ -7,11 +7,11 @@ def view_data(result, expressiontitle:str)->str:
     
     print(f'{expressiontitle} = {result}')
 
-def get_complex(string_input: str)-> int:
+def get_complex(string_input: int)-> complex:
     '''
     Ввод комплексного числа 
     '''
-    return int(string_input)
+    return complex(string_input)
 
 def get_rational(string_input: str)-> str:
     '''
