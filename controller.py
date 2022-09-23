@@ -26,6 +26,9 @@ def button_click():
                 result = operation_complex.mult()
             if operation_choise == '/':
                 result = operation_complex.part()
+            text = str(a_re) + ' + '  + str(a_im) \
+                   + 'i' + ' ' + operation_choise + ' ' \
+                   + str(b_re) + ' + ' + str(b_im) + 'i'
 
         elif number_choise == 2:
             a = user_interface.get_rational(
@@ -43,6 +46,7 @@ def button_click():
                 result = operation_rational.mult()
             if operation_choise == '/':
                 result = operation_rational.part()
+            text = str(a) + ' ' + operation_choise + ' ' + str(b)
         else:
             break
-        user_interface.view_data(result, 'Результат')
+        user_interface.view_data(result, text)
