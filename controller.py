@@ -51,3 +51,5 @@ def button_click():
         else:
             break
         user_interface.view_data(result, text)
+        logger.log(text, result)
+
