@@ -1,11 +1,10 @@
-# Андрей
-import user_interface as ui
+#Андрей
+
 
 x = 0
 y = 0
 
-
-def init(a, b):
+def init(a , b):
     global x
     global y
     x = float(a)
@@ -15,14 +14,14 @@ def init(a, b):
 def sum():
     return x + y
 
-
 def sub():
     return x - y
-
 
 def mult():
     return x * y
 
-
 def part():
-    return x * y
+    return x * y         
+
+
+

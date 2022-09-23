@@ -30,7 +30,7 @@ def get_oper(string_input: str) -> str:
     return symbol
 
 
-def get_choice(string_input: str) -> int:
+def get_choice(string_input:str) -> int:
     '''
     Выбор действия или вида чисел
     '''
