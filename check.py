@@ -1,11 +1,4 @@
-#Денис
-
-# 1)Проверка на число
-
-# a(мнимая часть) + bi
-# a = 2+3i
-
-def get_number_int(input_string:str)->int:
+def get_number_int(input_string: str) -> int:
     '''
     Проверка целого числа
     '''
@@ -16,7 +9,8 @@ def get_number_int(input_string:str)->int:
         except ValueError:
             print('Это не то ...')
 
-def get_number_float(input_string:str)->float:
+
+def get_number_float(input_string: str) -> float:
     '''
     Проверка числа с плавающей точкой
     '''
@@ -27,7 +21,8 @@ def get_number_float(input_string:str)->float:
         except ValueError:
             print('Это не то ...')
 
-def get_symbol(input_string:str)-> str:
+
+def get_symbol(input_string: str) -> str:
     '''
     Проверка символа для действий
     '''
@@ -41,23 +36,21 @@ def get_symbol(input_string:str)-> str:
         except ValueError:
             print('Это не то ...')
 
-def get_selection(input_string:str)-> int:
+
+def get_selection(input_string: str) -> int:
     '''
     Проверка числа для выбора результата
     '''
     while True:
         try:
             char = input(input_string)
-            if char == '1': 
+            if char == '1':
                 return int(char)
             if char == '2':
                 return int(char)
             if char == '3':
-                return int(char)    
+                return int(char)
             print('Не правильно!')
             continue
         except ValueError:
             print('Это не то ...')
-
-# n = get_selection(':')
-# print(n)
