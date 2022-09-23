@@ -1,5 +1,6 @@
 #Саша
 
+
 from datetime import datetime as dt
 from time import time
 
@@ -23,3 +24,4 @@ def rational_operation_logger(data):
         
 # complex_operation_logger(45)
 # rational_operation_logger(5)
+
