@@ -9,6 +9,7 @@ y = 0
          i - мнимая единица
 '''
 
+
 def init(a_re, a_im, b_re, b_im):
     global x
     global y
@@ -16,23 +17,17 @@ def init(a_re, a_im, b_re, b_im):
     y = complex(b_re, b_im)
 
 
-def sum_complex():
+def sum():
     return x + y
 
 
-def minus_complex():
+def sub():
     return x - y
 
 
-def multiply_complex():
+def mult():
     return x * y
 
 
-def partial_complex():
-    return x / y
-
-
-init(2, 3, 4, 5)
-print(x)
-print(y)
-print(sum_complex())
+def part():
+    return x * y
