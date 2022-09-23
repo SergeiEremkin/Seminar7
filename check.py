@@ -52,6 +52,8 @@ def get_selection(input_string:str)-> int:
                 return int(char)
             if char == '2':
                 return int(char)
+            if char == '3':
+                return int(char)    
             print('Не правильно!')
             continue
         except ValueError:

@@ -1,6 +1,4 @@
 #Андрей
-
-
 x = 0
 y = 0
 
@@ -21,7 +19,7 @@ def mult():
     return x * y
 
 def part():
-    return x * y         
+    return x / y         
 
 
 
