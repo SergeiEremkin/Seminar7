@@ -9,7 +9,7 @@ import check
 def button_click():
     result = 0
     while True:
-        number_choise = user_interface.get_choice(input('1 - для операций с комплесными числами: \n2 - для операций с рациональными числами: \n'))
+        number_choise = user_interface.get_choice('1 - для операций с комплесными числами: \n2 - для операций с рациональными числами: \n')
         if number_choise == 1:
             a_re = user_interface.get_complex('Введите re первого числа: ')
             a_im = user_interface.get_complex('Введите im первого числа: ')
@@ -25,7 +25,10 @@ def button_click():
               result = operation_complex.mult()
             if operation_choise =='/':
               result = operation_complex.part()     
-        
+            text = str(a_re) + ' + '  + str(a_im) \
+                   + 'i' + ' ' + operation_choise + ' ' \
+                   + str(b_re) + ' + ' + str(b_im) + 'i'
+
         elif number_choise == 2:
             a = user_interface.get_rational('Введите первое рациональное число: ')
             b = user_interface.get_rational('Введите второе рациональное число: ')
@@ -38,9 +41,10 @@ def button_click():
             if operation_choise =='*':
               result = operation_complex.mult()
             if operation_choise =='/':
-              result = operation_complex.part()  
+              result = operation_complex.part()
+            text = str(a) + ' ' + operation_choise + ' ' + str(b)  
 
-        user_interface.view_data(result, 'Результат')
+        user_interface.view_data(result, text)
         
        
 
