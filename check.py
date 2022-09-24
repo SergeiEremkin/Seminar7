@@ -54,3 +54,12 @@ def get_selection(input_string: str) -> int:
             continue
         except ValueError:
             print('Это не то ...')
+
+
+def get_ZeroDivisionError(num1,num2):
+    num1=float(num1)
+    num2=float(num2)
+    if num2==0.0:
+     return False
+    else:
+        return True    

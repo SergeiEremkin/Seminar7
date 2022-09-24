@@ -1,3 +1,4 @@
+from check import get_ZeroDivisionError
 import user_interface
 import operation_complex
 import operation_rational
@@ -44,7 +45,11 @@ def button_click():
             if operation_choise == '*':
                 result = operation_rational.mult()
             if operation_choise == '/':
-                result = operation_rational.part()
+                if get_ZeroDivisionError(a,b)==False :
+                   print('Делить на ноль нельзя')
+                   continue
+                elif get_ZeroDivisionError(a,b)==True:
+                 result = operation_rational.part()
             text = str(a) + ' ' + operation_choise + ' ' + str(b)
         else:
             break

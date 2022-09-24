@@ -24,7 +24,6 @@ def mult():
 
 
 def part():
-    if float(y)!=0:
+    
       return x / y
-    else:
-     return ('делить на ноль нельзя' )  
+  
