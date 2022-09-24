@@ -1,12 +1,15 @@
+import logger
 def get_number_int(input_string: str) -> int:
     '''
     Проверка целого числа
     '''
     while True:
         try:
-            num = int(input(input_string))
+            num = input(input_string)
+            num = int(num)
             return num
         except ValueError:
+            logger.log(num, 'ValueError')
             print('Это не то ...')
 
 
@@ -16,9 +19,11 @@ def get_number_float(input_string: str) -> float:
     '''
     while True:
         try:
-            num = float(input(input_string))
+            num = input(input_string)
+            num = float(num)
             return num
         except ValueError:
+            logger.log(num, 'ValueError')
             print('Это не то ...')
 
 
@@ -32,8 +37,11 @@ def get_symbol(input_string: str) -> str:
             if char not in '+-/*':
                 print('Не правильно!')
                 continue
+            logger.log(char, 'ValueError')
             return char
+            
         except ValueError:
+            logger.log(char, 'ValueError')
             print('Это не то ...')
 
 
@@ -50,7 +58,9 @@ def get_selection(input_string: str) -> int:
                 return int(char)
             if char == '3':
                 return int(char)
+            logger.log(char, 'ValueError')
             print('Не правильно!')
             continue
         except ValueError:
+            logger.log(char, 'ValueError')
             print('Это не то ...')
