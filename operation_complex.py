@@ -4,9 +4,8 @@
          im - мнимая часть
          i - мнимая единица
 '''
-
-x = 0
-y = 0
+x = 1
+y = 1
 
 
 def init(a_re, a_im, b_re, b_im):
@@ -16,20 +15,19 @@ def init(a_re, a_im, b_re, b_im):
     y = complex(b_re, b_im)
 
 
-def sum():
-    return x + y
+def summ():
+    return f'{x} + {y} = {x + y}'
 
 
 def sub():
-    return x - y
+    return f'{x} - {y} = {x - y}'
 
 
 def mult():
-    return x * y
+    return f'{x} * {y} = {x * y}'
 
 
 def part():
-
-      return x / y
+    return f'{x} / {y} = {x / y}'
     
  

@@ -52,11 +52,7 @@ def get_selection(input_string: str) -> int:
     while True:
         try:
             char = input(input_string)
-            if char == '1':
-                return int(char)
-            if char == '2':
-                return int(char)
-            if char == '3':
+            if char in '123':
                 return int(char)
             logger.log(char, 'ValueError')
             print('Не правильно!')
@@ -66,7 +62,7 @@ def get_selection(input_string: str) -> int:
             print('Это не то ...')
 
 
-def get_ZeroDivisionError(num1,num2):
+def get_zero_division_error(num1,num2):
     num1=float(num1)
     num2=float(num2)
     if num2==0.0:
@@ -74,7 +70,7 @@ def get_ZeroDivisionError(num1,num2):
     else:
         return True 
         
-def complex_get_ZeroDivisionError(a_re, a_im, b_re, b_im):
+def complex_get_zero_division_error(a_re, a_im, b_re, b_im):
     x=0
     y=0
     x = complex(a_re, a_im)

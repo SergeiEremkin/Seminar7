@@ -1,7 +1,8 @@
-from check import complex_get_ZeroDivisionError, get_ZeroDivisionError
+from check import complex_get_zero_division_error, get_zero_division_error
 import user_interface
 import operation_complex
 import operation_rational
+
 import logger
 
 
@@ -19,22 +20,17 @@ def button_click():
             operation_choise = user_interface.get_oper(
                 '+ - для сложения: \n- - для вычетания: \n* - для умножения: \n/ - для деления: \n')
             if operation_choise == '+':
-                result = operation_complex.sum()
+                result = operation_complex.summ()
             if operation_choise == '-':
                 result = operation_complex.sub()
             if operation_choise == '*':
                 result = operation_complex.mult()
             if operation_choise == '/':
-               if complex_get_ZeroDivisionError(a_re, a_im, b_re, b_im)==False:
-                print('Делить на ноль нельзя')
-                continue
-             
-               elif complex_get_ZeroDivisionError(a_re, a_im, b_re, b_im)==True :
-                result = operation_complex.part()
-            text = '(' + str(a_re) + ' + ' + str(a_im) \
-                + 'i' + ')' + ' ' + operation_choise + ' ' \
-                   + '(' + str(b_re) + ' + ' + str(b_im) + 'i' + ')'
-
+                if complex_get_zero_division_error(a_re, a_im, b_re, b_im) == False:
+                    print('Делить на ноль нельзя')
+                    continue
+                elif complex_get_zero_division_error(a_re, a_im, b_re, b_im) == True:
+                   result = operation_complex.part()    
         elif number_choise == 2:
             a = user_interface.get_rational(
                 'Введите первое рациональное число: ')
@@ -44,19 +40,18 @@ def button_click():
             operation_choise = user_interface.get_oper(
                 '+ - для сложения: \n- - для вычетания: \n* - для умножения: \n/ - для деления: \n')
             if operation_choise == '+':
-                result = operation_rational.sum()
+                result = operation_complex.summ()
             if operation_choise == '-':
-                result = operation_rational.sub()
+                result = operation_complex.sub()
             if operation_choise == '*':
-                result = operation_rational.mult()
+                result = operation_complex.mult()
             if operation_choise == '/':
-                if get_ZeroDivisionError(a,b)==False :
-                   print('Делить на ноль нельзя')
-                   continue
-                elif get_ZeroDivisionError(a,b)==True:
-                 result = operation_rational.part()
-            text = str(a) + ' ' + operation_choise + ' ' + str(b)
+                if get_zero_division_error(a, b) == False:
+                    print('Делить на ноль нельзя')
+                    continue
+                elif get_zero_division_error(a, b) == True:
+                    result = operation_complex.part()
         else:
             break
-        user_interface.view_data(result, text)
-        logger.log(text, result)
+        user_interface.view_data(result, 'Ответ')
+        logger.log('Ответ', result)

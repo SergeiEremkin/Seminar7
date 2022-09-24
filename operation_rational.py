@@ -1,6 +1,11 @@
-x = 0
-y = 0
+from operation_complex import summ, sub, mult, part
+x = 1
+y = 1
 
+'''
+Рациональные числа - числа с дробной частью
+Иницилизация рационального числа. Операции с числами находятся в модуле operation_complex чтобы не дублировать код
+'''
 
 def init(a, b):
     global x
@@ -8,22 +13,12 @@ def init(a, b):
     x = float(a)
     y = float(b)
 
+summ()
 
-def sum():
-    return x + y
+sub()
 
+mult()
 
-def sub():
-    return x - y
+part()
 
-
-def mult():
- 
-    return x * y
-
-
-
-def part():
-    
-      return x / y
   

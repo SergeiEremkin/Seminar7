@@ -1,2 +1,37 @@
 19:22: 3.0 + 4.0 = 7.0
 19:24: (2 + 3i) - (4 + 66i) = (-2-63j)
+22:14:50: / = ValueError
+22:14:50: (2 + 3i) / (4 + 5i) = (0.5609756097560976+0.0487804878048781j)
+22:15:03: 4 = ValueError
+22:18:23: / = ValueError
+22:24:09: & C:/Users/Сергей/AppData/Local/Programs/Python/Python310/python.exe c:/Users/Сергей/source/Seminar7/main.py = ValueError
+22:24:21: + = ValueError
+22:24:21: Ответ = (2+3j) + (4+5j) = (6+8j)
+22:29:54: * = ValueError
+22:29:54: Ответ = 0 * 0 = 0
+22:30:10: + = ValueError
+22:30:10: Ответ = 0 + 0 = 0
+22:35:06: + = ValueError
+22:35:06: Ответ = 0 + 0 = 0
+22:36:55: & C:/Users/Сергей/AppData/Local/Programs/Python/Python310/python.exe c:/Users/Сергей/source/Seminar7/main.py = ValueError
+22:36:59: + = ValueError
+22:36:59: Ответ = 0 + 0 = 0
+22:40:53: * = ValueError
+22:40:53: Ответ = 0 * 0 = 0
+22:44:37: + = ValueError
+22:44:37: Ответ = 1 + 1 = 2
+22:45:57: & C:/Users/Сергей/AppData/Local/Programs/Python/Python310/python.exe c:/Users/Сергей/source/Seminar7/main.py = ValueError
+22:46:07: / = ValueError
+22:46:07: Ответ = (2+3j) / (3+4j) = (0.72+0.04j)
+22:46:21: / = ValueError
+22:46:21: Ответ = (2+3j) / (4+5j) = (0.5609756097560976+0.0487804878048781j)
+22:46:42: / = ValueError
+22:46:42: Ответ = (2+3j) / (4+5j) = (0.5609756097560976+0.0487804878048781j)
+22:46:46: c = ValueError
+22:47:44: / = ValueError
+22:47:44: Ответ = 0
+22:52:47: & C:/Users/Сергей/AppData/Local/Programs/Python/Python310/python.exe c:/Users/Сергей/source/Seminar7/main.py = ValueError
+22:52:57: 000002 = ValueError
+22:53:05: / = ValueError
+22:59:15: + = ValueError
+22:59:15: Ответ = (2+3j) + (4+5j) = (6+8j)
