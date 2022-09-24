@@ -1,4 +1,6 @@
 import logger
+
+
 def get_number_int(input_string: str) -> int:
     '''
     Проверка целого числа
@@ -39,7 +41,7 @@ def get_symbol(input_string: str) -> str:
                 continue
             logger.log(char, 'ValueError')
             return char
-            
+
         except ValueError:
             logger.log(char, 'ValueError')
             print('Это не то ...')
@@ -62,22 +64,39 @@ def get_selection(input_string: str) -> int:
             print('Это не то ...')
 
 
-def get_zero_division_error(num1,num2):
-    num1=float(num1)
-    num2=float(num2)
-    if num2==0.0:
-     return False
+def get_zero_division_error(num1, num2):
+    num1 = float(num1)
+    num2 = float(num2)
+    if num2 == 0.0:
+        return False
     else:
-        return True 
-        
+        return True
+
+
 def complex_get_zero_division_error(a_re, a_im, b_re, b_im):
-    x=0
-    y=0
+    x = 0
+    y = 0
     x = complex(a_re, a_im)
     y = complex(b_re, b_im)
-    if y==0:
+    if y == 0:
         return False
-    else :
-        return True  
+    else:
+        return True
 
 
+'''
+Нумератор для удобства ввода чисел в контроллере
+'''
+
+
+def num_to_word(num: str) -> str:
+
+    if num == 1:
+        return 'первое'
+    elif num == 2:
+        return 'второе'
+    else:
+        print('Метод может принимать только 1 или 2, проверьте что приходит в метод num_to_word ')
+        logger.log(
+            num, 'Метод может принимать только 1 или 2, проверьте что приходит в метод num_to_word ')
+        exit()

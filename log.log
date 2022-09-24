@@ -4,34 +4,99 @@
 22:14:50: (2 + 3i) / (4 + 5i) = (0.5609756097560976+0.0487804878048781j)
 22:15:03: 4 = ValueError
 22:18:23: / = ValueError
-22:24:09: & C:/Users/Сергей/AppData/Local/Programs/Python/Python310/python.exe c:/Users/Сергей/source/Seminar7/main.py = ValueError
+22:24:09: & C:/Users/пїЅпїЅпїЅпїЅпїЅпїЅ/AppData/Local/Programs/Python/Python310/python.exe c:/Users/пїЅпїЅпїЅпїЅпїЅпїЅ/source/Seminar7/main.py = ValueError
 22:24:21: + = ValueError
-22:24:21: Ответ = (2+3j) + (4+5j) = (6+8j)
+22:24:21: пїЅпїЅпїЅпїЅпїЅ = (2+3j) + (4+5j) = (6+8j)
 22:29:54: * = ValueError
-22:29:54: Ответ = 0 * 0 = 0
+22:29:54: пїЅпїЅпїЅпїЅпїЅ = 0 * 0 = 0
 22:30:10: + = ValueError
-22:30:10: Ответ = 0 + 0 = 0
+22:30:10: пїЅпїЅпїЅпїЅпїЅ = 0 + 0 = 0
 22:35:06: + = ValueError
-22:35:06: Ответ = 0 + 0 = 0
-22:36:55: & C:/Users/Сергей/AppData/Local/Programs/Python/Python310/python.exe c:/Users/Сергей/source/Seminar7/main.py = ValueError
+22:35:06: пїЅпїЅпїЅпїЅпїЅ = 0 + 0 = 0
+22:36:55: & C:/Users/пїЅпїЅпїЅпїЅпїЅпїЅ/AppData/Local/Programs/Python/Python310/python.exe c:/Users/пїЅпїЅпїЅпїЅпїЅпїЅ/source/Seminar7/main.py = ValueError
 22:36:59: + = ValueError
-22:36:59: Ответ = 0 + 0 = 0
+22:36:59: пїЅпїЅпїЅпїЅпїЅ = 0 + 0 = 0
 22:40:53: * = ValueError
-22:40:53: Ответ = 0 * 0 = 0
+22:40:53: пїЅпїЅпїЅпїЅпїЅ = 0 * 0 = 0
 22:44:37: + = ValueError
-22:44:37: Ответ = 1 + 1 = 2
-22:45:57: & C:/Users/Сергей/AppData/Local/Programs/Python/Python310/python.exe c:/Users/Сергей/source/Seminar7/main.py = ValueError
+22:44:37: пїЅпїЅпїЅпїЅпїЅ = 1 + 1 = 2
+22:45:57: & C:/Users/пїЅпїЅпїЅпїЅпїЅпїЅ/AppData/Local/Programs/Python/Python310/python.exe c:/Users/пїЅпїЅпїЅпїЅпїЅпїЅ/source/Seminar7/main.py = ValueError
 22:46:07: / = ValueError
-22:46:07: Ответ = (2+3j) / (3+4j) = (0.72+0.04j)
+22:46:07: пїЅпїЅпїЅпїЅпїЅ = (2+3j) / (3+4j) = (0.72+0.04j)
 22:46:21: / = ValueError
-22:46:21: Ответ = (2+3j) / (4+5j) = (0.5609756097560976+0.0487804878048781j)
+22:46:21: пїЅпїЅпїЅпїЅпїЅ = (2+3j) / (4+5j) = (0.5609756097560976+0.0487804878048781j)
 22:46:42: / = ValueError
-22:46:42: Ответ = (2+3j) / (4+5j) = (0.5609756097560976+0.0487804878048781j)
+22:46:42: пїЅпїЅпїЅпїЅпїЅ = (2+3j) / (4+5j) = (0.5609756097560976+0.0487804878048781j)
 22:46:46: c = ValueError
 22:47:44: / = ValueError
-22:47:44: Ответ = 0
-22:52:47: & C:/Users/Сергей/AppData/Local/Programs/Python/Python310/python.exe c:/Users/Сергей/source/Seminar7/main.py = ValueError
+22:47:44: пїЅпїЅпїЅпїЅпїЅ = 0
+22:52:47: & C:/Users/пїЅпїЅпїЅпїЅпїЅпїЅ/AppData/Local/Programs/Python/Python310/python.exe c:/Users/пїЅпїЅпїЅпїЅпїЅпїЅ/source/Seminar7/main.py = ValueError
 22:52:57: 000002 = ValueError
 22:53:05: / = ValueError
 22:59:15: + = ValueError
-22:59:15: Ответ = (2+3j) + (4+5j) = (6+8j)
+22:59:15: пїЅпїЅпїЅпїЅпїЅ = (2+3j) + (4+5j) = (6+8j)
+23:59:32: + = ValueError
+23:59:32: пїЅпїЅпїЅпїЅпїЅ:  = 1 + 1 = 2
+00:00:22: & C:/Users/пїЅпїЅпїЅпїЅпїЅпїЅ/AppData/Local/Programs/Python/Python310/python.exe c:/Users/пїЅпїЅпїЅпїЅпїЅпїЅ/source/Seminar7/main.py = ValueError
+00:00:30:  = ValueError
+00:00:47: / = ValueError
+00:00:47: пїЅпїЅпїЅпїЅпїЅ:  = 1 / 1 = 1.0
+00:07:45: & C:/Users/пїЅпїЅпїЅпїЅпїЅпїЅ/AppData/Local/Programs/Python/Python310/python.exe c:/Users/пїЅпїЅпїЅпїЅпїЅпїЅ/source/Seminar7/main.py = ValueError
+00:16:54: / = ValueError
+00:16:54: пїЅпїЅпїЅпїЅпїЅ:  = 1 / 1 = 1.0
+00:20:59: 3 = пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ 1 пїЅпїЅпїЅ 2, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ num_to_word 
+00:21:38: * = ValueError
+00:21:38: пїЅпїЅпїЅпїЅпїЅ:  = 1 * 1 = 1
+00:40:41:  = ValueError
+00:52:35: + = ValueError
+00:52:35: пїЅпїЅпїЅпїЅпїЅ:  = (2+3j) + (2+3j) = (4+6j)
+00:54:24: & C:/Users/пїЅпїЅпїЅпїЅпїЅпїЅ/AppData/Local/Programs/Python/Python310/python.exe c:/Users/пїЅпїЅпїЅпїЅпїЅпїЅ/source/Seminar7/main.py = ValueError
+00:54:38: * = ValueError
+00:54:38: пїЅпїЅпїЅпїЅпїЅ:  = (2+4j) * (3+4j) = (-10+20j)
+00:55:58: / = ValueError
+00:56:56: / = ValueError
+00:56:56: пїЅпїЅпїЅпїЅпїЅ:  = (2+3j) / (4+5j) = (0.5609756097560976+0.0487804878048781j)
+01:24:21: & C:/Users/пїЅпїЅпїЅпїЅпїЅпїЅ/AppData/Local/Programs/Python/Python310/python.exe c:/Users/пїЅпїЅпїЅпїЅпїЅпїЅ/source/Seminar7/main.py = ValueError
+01:41:39: * = ValueError
+01:41:39: пїЅпїЅпїЅпїЅпїЅ:  = 1 * 1 = 1
+01:41:50: / = ValueError
+01:41:50: пїЅпїЅпїЅпїЅпїЅ:  = 1 / 1 = 1.0
+01:42:11: / = ValueError
+01:42:11: пїЅпїЅпїЅпїЅпїЅ:  = 1 / 1 = 1.0
+01:44:49: / = ValueError
+01:44:49: пїЅпїЅпїЅпїЅпїЅ:  = 0 / 1 = 0.0
+01:47:23: / = ValueError
+01:47:23: пїЅпїЅпїЅпїЅпїЅ:  = 0 / 1 = 0.0
+01:47:34: / = ValueError
+01:47:34: пїЅпїЅпїЅпїЅпїЅ:  = 0 / 1 = 0.0
+01:49:11: & C:/Users/пїЅпїЅпїЅпїЅпїЅпїЅ/AppData/Local/Programs/Python/Python310/python.exe c:/Users/пїЅпїЅпїЅпїЅпїЅпїЅ/source/Seminar7/main.py = ValueError
+01:49:17: * = ValueError
+01:49:17: пїЅпїЅпїЅпїЅпїЅ:  = 0 * 1 = 0
+01:50:10: / = ValueError
+01:50:10: пїЅпїЅпїЅпїЅпїЅ:  = (2+3j) / (4+5j) = (0.5609756097560976+0.0487804878048781j)
+01:50:20: + = ValueError
+01:50:20: пїЅпїЅпїЅпїЅпїЅ:  = (2+3j) + (4+5j) = (6+8j)
+01:50:37: + = ValueError
+01:50:37: пїЅпїЅпїЅпїЅпїЅ:  = (2+3j) + (4+5j) = (6+8j)
+02:06:10: / = ValueError
+02:06:10: пїЅпїЅпїЅпїЅпїЅ:  = 0 / 1 = 0.0
+02:07:48: & C:/Users/пїЅпїЅпїЅпїЅпїЅпїЅ/AppData/Local/Programs/Python/Python310/python.exe c:/Users/пїЅпїЅпїЅпїЅпїЅпїЅ/source/Seminar7/main.py = ValueError
+02:07:59: * = ValueError
+02:07:59: пїЅпїЅпїЅпїЅпїЅ:  = 0 * 1 = 0
+02:12:24: / = ValueError
+02:12:24: пїЅпїЅпїЅпїЅпїЅ:  = 0 / 1 = 0.0
+02:14:29: / = ValueError
+02:14:29: пїЅпїЅпїЅпїЅпїЅ:  = 3.0 / 4.0 = 0.75
+02:15:55: / = ValueError
+02:15:55: пїЅпїЅпїЅпїЅпїЅ:  = 0 / 1 = 0.0
+02:16:24: / = ValueError
+02:16:24: пїЅпїЅпїЅпїЅпїЅ:  = 0 / 1 = 0.0
+02:16:32: + = ValueError
+02:16:32: пїЅпїЅпїЅпїЅпїЅ:  = 0 + 1 = 1
+02:19:19: + = ValueError
+02:20:10: + = ValueError
+02:20:35: + = ValueError
+02:22:07: /4 = ValueError
+02:22:11: / = ValueError
+02:22:11: пїЅпїЅпїЅпїЅпїЅ:  = 3.0 / 4.0 = 0.75
+02:23:11: / = ValueError
