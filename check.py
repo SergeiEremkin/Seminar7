@@ -64,3 +64,24 @@ def get_selection(input_string: str) -> int:
         except ValueError:
             logger.log(char, 'ValueError')
             print('Это не то ...')
+
+
+def get_ZeroDivisionError(num1,num2):
+    num1=float(num1)
+    num2=float(num2)
+    if num2==0.0:
+     return False
+    else:
+        return True 
+        
+def complex_get_ZeroDivisionError(a_re, a_im, b_re, b_im):
+    x=0
+    y=0
+    x = complex(a_re, a_im)
+    y = complex(b_re, b_im)
+    if y==0:
+        return False
+    else :
+        return True  
+
+
