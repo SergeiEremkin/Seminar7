@@ -62,4 +62,16 @@ def get_ZeroDivisionError(num1,num2):
     if num2==0.0:
      return False
     else:
-        return True    
+        return True 
+        
+def complex_get_ZeroDivisionError(a_re, a_im, b_re, b_im):
+    x=0
+    y=0
+    x = complex(a_re, a_im)
+    y = complex(b_re, b_im)
+    if y==0:
+        return False
+    else :
+        return True  
+
+
