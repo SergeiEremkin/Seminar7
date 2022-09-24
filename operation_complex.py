@@ -29,4 +29,9 @@ def mult():
 
 
 def part():
-    return x / y
+   while True: 
+     try:
+      return x / y
+     except ZeroDivisionError:
+        return ('делить на ноль нельзя' )
+ 

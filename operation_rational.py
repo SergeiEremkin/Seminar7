@@ -18,8 +18,13 @@ def sub():
 
 
 def mult():
+ 
     return x * y
 
 
+
 def part():
-    return x / y
+    if float(y)!=0:
+      return x / y
+    else:
+     return ('делить на ноль нельзя' )  
