@@ -92,9 +92,9 @@ def complex_get_zero_division_error(a_re, a_im, b_re, b_im):
 def num_to_word(num: str) -> str:
 
     if num == 1:
-        return 'первое'
+        return 'первого'
     elif num == 2:
-        return 'второе'
+        return 'второго'
     else:
         print('Метод может принимать только 1 или 2, проверьте что приходит в метод num_to_word ')
         logger.log(

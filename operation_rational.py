@@ -1,5 +1,3 @@
-import operation_complex
-
 
 '''
 Рациональные числа - числа с дробной частью
@@ -7,6 +5,7 @@ import operation_complex
 '''
 x = 0
 y = 1
+
 
 def init(a, b):
     global x
@@ -29,10 +28,3 @@ def mult():
 
 def part():
     return f'{x} / {y} = {x / y}'
-
-
-
-
-  
-
-  

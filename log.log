@@ -100,3 +100,18 @@
 02:22:11: / = ValueError
 02:22:11: пїЅпїЅпїЅпїЅпїЅ:  = 3.0 / 4.0 = 0.75
 02:23:11: / = ValueError
+03:14:05: / = ValueError
+03:27:07: & C:/Users/Сергей/AppData/Local/Programs/Python/Python310/python.exe c:/Users/Сергей/source/Seminar7/main.py = ValueError
+03:27:47: & C:/Users/Сергей/AppData/Local/Programs/Python/Python310/python.exe c:/Users/Сергей/source/Seminar7/main.py = ValueError
+03:29:29: / = ValueError
+03:29:29: 3.0 / 4.0 = 0.75 = ValueError
+03:31:28: + = ValueError
+03:31:28: 3.0 + 4.0 = 7.0 = ValueError
+03:33:28: * = ValueError
+03:33:28: 3.0 * 4.0 = 12.0 = ValueError
+03:34:54: * = ValueError
+03:34:54: 3.0 * 4.0 = 12.0 = ValueError
+03:35:39: * = ValueError
+03:35:39: 3.0 * 4.0 = 12.0 = ValueError
+03:36:09: + = ValueError
+03:36:09: (2+3j) + (4+5j) = (6+8j) = ValueError
