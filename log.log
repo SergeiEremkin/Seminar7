@@ -183,3 +183,7 @@
 16:44:45: None = ValueError
 16:44:51: / = ValueError
 16:44:51: 3.0 / 4.0 = 0.75 = ValueError
+16:46:49: / = ValueError
+16:46:49: None = ValueError
+16:46:58: / = ValueError
+16:46:58: (2+3j) / (4+5j) = (0.5609756097560976+0.0487804878048781j) = ValueError
