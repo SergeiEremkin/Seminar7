@@ -121,3 +121,65 @@
 13:16:35: + = ValueError
 13:16:35: 0 + 1 = 1 = ValueError
 13:23:53:  = ValueError
+15:16:29: / = ValueError
+15:16:29: None = ValueError
+15:22:49: & C:/Users/Сергей/AppData/Local/Programs/Python/Python310/python.exe c:/Users/Сергей/source/Seminar7/main.py = ValueError
+15:23:08: / = ValueError
+15:23:08: Вы делите на ноль. Так нельзя = ValueError
+15:24:33: / = ValueError
+15:24:33: None = ValueError
+15:28:13: / = ValueError
+15:28:13: <function part at 0x000002380481F640> = ValueError
+15:31:34: & C:/Users/Сергей/AppData/Local/Programs/Python/Python310/python.exe c:/Users/Сергей/source/Seminar7/main.py = ValueError
+15:31:51: / = ValueError
+15:37:23: / = ValueError
+15:37:23: None = ValueError
+15:39:00: & C:/Users/Сергей/AppData/Local/Programs/Python/Python310/python.exe c:/Users/Сергей/source/Seminar7/main.py = ValueError
+15:39:16: / = ValueError
+15:39:46: / = ValueError
+15:41:30: / = ValueError
+15:42:13: / = ValueError
+15:42:13: None = ValueError
+15:42:27: / = ValueError
+15:42:27: None = ValueError
+15:42:56: & C:/Users/Сергей/AppData/Local/Programs/Python/Python310/python.exe c:/Users/Сергей/source/Seminar7/main.py = ValueError
+15:43:13: / = ValueError
+15:43:13: None = ValueError
+15:44:31: / = ValueError
+15:44:31: None = ValueError
+15:44:44: * = ValueError
+15:44:44: 3.0 * 4.0 = 12.0 = ValueError
+15:44:52: / = ValueError
+15:44:52: None = ValueError
+15:47:01: / = ValueError
+15:47:01: None = ValueError
+15:48:33: / = ValueError
+15:48:33: 3.0 / 4.0 = 0.75 = ValueError
+15:48:45: / = ValueError
+15:50:42: / = ValueError
+15:50:42: Деление на ноль запрезено = ValueError
+15:51:26: & C:/Users/Сергей/AppData/Local/Programs/Python/Python310/python.exe c:/Users/Сергей/source/Seminar7/main.py = ValueError
+15:51:34: / = ValueError
+15:51:34: Деление на ноль запрезено = ValueError
+15:54:32: / = ValueError
+15:55:49: / = ValueError
+15:55:49: None = ValueError
+15:56:52: / = ValueError
+15:56:52: None = ValueError
+15:57:38: / = ValueError
+15:57:38: 3.0 / 4.0 = 0.75 = ValueError
+16:01:24: / = ValueError
+16:02:10: / = ValueError
+16:02:10: 3.0 / 4.0 = 0.75 = ValueError
+16:02:15: / = ValueError
+16:03:37: / = ValueError
+16:03:37: 2.0 / 3.0 = 0.6666666666666666 = ValueError
+16:03:44: / = ValueError
+16:04:32: / = ValueError
+16:04:32: None = ValueError
+16:07:11: / = ValueError
+16:07:11: None = ValueError
+16:44:45: / = ValueError
+16:44:45: None = ValueError
+16:44:51: / = ValueError
+16:44:51: 3.0 / 4.0 = 0.75 = ValueError

@@ -85,7 +85,7 @@ def complex_get_zero_division_error(a_re, a_im, b_re, b_im):
 
 
 '''
-Нумератор для удобства ввода чисел в контроллере
+Нумератор для удобства отображения чисел в контроллере
 '''
 
 
@@ -100,3 +100,11 @@ def num_to_word(num: str) -> str:
         logger.log(
             num, 'Метод может принимать только 1 или 2, проверьте что приходит в метод num_to_word ')
         exit()
+
+
+def zero_division_check(def_part):
+    try:
+        def_part
+    except ZeroDivisionError:
+        if ZeroDivisionError:
+            print('') 

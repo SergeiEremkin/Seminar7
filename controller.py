@@ -4,6 +4,7 @@ import operation_complex
 import operation_rational
 import logger
 from colorama import Fore, Style
+from check import zero_division_check
 
 '''
 В контроллере собираем логику из модулей operation_complex и operation_rational и интерфейс из user_interface
@@ -37,13 +38,13 @@ def button_click():
             operation_choise = user_interface.get_oper(
                 Fore.CYAN+Style.BRIGHT + '+ - для сложения: \n- - для вычетания: \n* - для умножения: \n/ - для деления: \n')
             if operation_choise == '+':
-                result = operation_complex.summ()
+                result = operation_rational.summ()
             if operation_choise == '-':
-                result = operation_complex.sub()
+                result = operation_rational.sub()
             if operation_choise == '*':
-                result = operation_complex.mult()
+                result = operation_rational.mult()
             if operation_choise == '/':
-                result = operation_complex.part()
+                result = operation_rational.part()
         else:
             break
         user_interface.view_data(result)
