@@ -115,3 +115,9 @@
 03:35:39: 3.0 * 4.0 = 12.0 = ValueError
 03:36:09: + = ValueError
 03:36:09: (2+3j) + (4+5j) = (6+8j) = ValueError
+13:12:00: / = ValueError
+13:12:00: None = ValueError
+13:16:06: & C:/Users/Сергей/AppData/Local/Programs/Python/Python310/python.exe c:/Users/Сергей/source/Seminar7/main.py = ValueError
+13:16:35: + = ValueError
+13:16:35: 0 + 1 = 1 = ValueError
+13:23:53:  = ValueError

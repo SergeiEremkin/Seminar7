@@ -37,13 +37,13 @@ def button_click():
             operation_choise = user_interface.get_oper(
                 Fore.CYAN+Style.BRIGHT + '+ - для сложения: \n- - для вычетания: \n* - для умножения: \n/ - для деления: \n')
             if operation_choise == '+':
-                result = operation_rational.summ()
+                result = operation_complex.summ()
             if operation_choise == '-':
-                result = operation_rational.sub()
+                result = operation_complex.sub()
             if operation_choise == '*':
-                result = operation_rational.mult()
+                result = operation_complex.mult()
             if operation_choise == '/':
-                result = operation_rational.part()
+                result = operation_complex.part()
         else:
             break
         user_interface.view_data(result)

@@ -27,4 +27,7 @@ def mult():
 
 
 def part():
-    return f'{x} / {y} = {x / y}'
+    try:
+        return f'{x} / {y} = {x / y}'
+    except ZeroDivisionError:
+        print('Вы делите на ноль. Так нельзя')    
