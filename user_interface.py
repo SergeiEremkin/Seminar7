@@ -6,7 +6,7 @@ def view_data(result) -> str:
     '''
     Вывод результата
     '''
-    print(f'Результат = {result}\n')
+    print(f'Результат: {result}\n')
 
 
 def get_rational(num: int) -> float:

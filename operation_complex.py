@@ -31,5 +31,6 @@ def part():
     try:
         return f'{x} / {y} = {x / y}'
     except ZeroDivisionError:
-        print('Вы делите на ноль. Так нельзя') 
+        print('Вы делите на ноль. Так нельзя')
+        
        

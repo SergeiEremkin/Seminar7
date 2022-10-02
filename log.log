@@ -187,3 +187,24 @@
 16:46:49: None = ValueError
 16:46:58: / = ValueError
 16:46:58: (2+3j) / (4+5j) = (0.5609756097560976+0.0487804878048781j) = ValueError
+14:03:34: / = ValueError
+14:27:35: / = ValueError
+14:49:56: / = ValueError
+14:50:02: / = ValueError
+14:50:02: 2.0 / 8.0 = 0.25 = ValueError
+14:50:17: / = ValueError
+14:51:07: / = ValueError
+14:51:54: / = ValueError
+14:51:54: None = ValueError
+20:08:39: / = ValueError
+20:08:39: (2+3j) / (4+5j) = (0.5609756097560976+0.0487804878048781j) = ValueError
+20:09:25: / = ValueError
+20:09:25: 3.0 / 4.0 = 0.75 = ValueError
+20:20:51: / = ValueError
+20:20:51: (1+2j) / (2+3j) = (0.6153846153846154+0.07692307692307691j) = ValueError
+20:21:05: + = ValueError
+20:21:05: 3.0 + 4.0 = 7.0 = ValueError
+20:25:34: / = ValueError
+20:25:34: None = ValueError
+20:25:43: - = ValueError
+20:25:43: (2+3j) - (4+5j) = (-2-2j) = ValueError

@@ -4,7 +4,7 @@ import operation_complex
 import operation_rational
 import logger
 from colorama import Fore, Style
-from check import zero_division_check
+
 
 '''
 В контроллере собираем логику из модулей operation_complex и operation_rational и интерфейс из user_interface
